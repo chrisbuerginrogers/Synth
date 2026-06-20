@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Windows FluidSynth DLL (students copy this locally — not tracked)
+libfluidsynth*.dll
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# IDE
+.idea/
