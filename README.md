@@ -31,6 +31,13 @@ Drives the FluidSynth C library with real sampled instrument recordings stored i
 
 ---
 
+## UNO-Q — Standalone BLE MIDI Instrument
+
+See [`UNO-Q/`](UNO-Q/) for a self-contained system that turns a LEGO SPIKE Prime hub
+and an IK Multimedia UNO Q into a wireless instrument with no laptop required.
+
+---
+
 ## Setup
 
 See [SETUP.md](SETUP.md) for full installation instructions across Mac, Windows, and Linux.
