@@ -6,7 +6,7 @@ import sounddevice as sd
 import fluidsynth
 from lelib import doubleMotor
 
-SERIAL = 27  # card serial 0027
+SERIAL = 3664  # card serial 0027
 
 SAMPLE_RATE = int(sd.query_devices(sd.default.device[1])['default_samplerate'])
 

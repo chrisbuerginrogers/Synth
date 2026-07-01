@@ -164,6 +164,14 @@ class controller(_CardReader, le.Controller):
     def left_position(self):  return self.sensor.leftPercent
     def right_position(self): return self.sensor.rightPercent
 
+    def left_angle(self):
+        """Direction the left stick is pushed, in degrees. Meaningless at center (percent == 0)."""
+        return self.sensor.leftAngle
+
+    def right_angle(self):
+        """Direction the right stick is pushed, in degrees. Meaningless at center (percent == 0)."""
+        return self.sensor.rightAngle
+
     def drive(self, dm, t=100):
         for i in range(t):
             dm.movement_move_tank(self.left_position(), self.right_position())
